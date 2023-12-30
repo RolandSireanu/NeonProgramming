@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/logger.hpp
+iostream
+-
+arm_neon.h
+-
+
+/home/roland/work/NEON/downsampling/main.cpp
+arm_neon.h
+/home/roland/work/NEON/downsampling/arm_neon.h
+logger.hpp
+/home/roland/work/NEON/downsampling/logger.hpp
+cstdio
+-
+cstdlib
+-
+stdlib.h
+-
+omp.h
+-
+fstream
+-
+iterator
+-
+chrono
+-
+iostream
+-
+vector
+-
+algorithm
+-
+initializer_list
+-
+

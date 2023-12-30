@@ -1,0 +1,14 @@
+# Target labels
+ googletest
+# Source files and their labels
+/home/roland/work/benchmark/build/third_party/googletest/CMakeFiles/googletest
+/home/roland/work/benchmark/build/third_party/googletest/CMakeFiles/googletest.rule
+/home/roland/work/benchmark/build/third_party/googletest/CMakeFiles/googletest-complete.rule
+/home/roland/work/benchmark/build/third_party/googletest/stamp/googletest-install.rule
+/home/roland/work/benchmark/build/third_party/googletest/stamp/googletest-mkdir.rule
+/home/roland/work/benchmark/build/third_party/googletest/stamp/googletest-download.rule
+/home/roland/work/benchmark/build/third_party/googletest/stamp/googletest-update.rule
+/home/roland/work/benchmark/build/third_party/googletest/stamp/googletest-patch.rule
+/home/roland/work/benchmark/build/third_party/googletest/stamp/googletest-configure.rule
+/home/roland/work/benchmark/build/third_party/googletest/stamp/googletest-build.rule
+/home/roland/work/benchmark/build/third_party/googletest/stamp/googletest-test.rule

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/logger.hpp
+iostream
+-
+arm_neon.h
+-
+
+/home/roland/work/NEON/deinterleaving/main.cpp
+arm_neon.h
+-
+logger.hpp
+/home/roland/work/NEON/deinterleaving/logger.hpp
+

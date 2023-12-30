@@ -1,0 +1,90 @@
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
+Change Dir: /home/roland/work/benchmark/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_74436/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_74436.dir/build.make CMakeFiles/cmTC_74436.dir/build
+gmake[1]: Entering directory '/home/roland/work/benchmark/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_74436.dir/src.cxx.o
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wshorten-64-to-32   -Wshorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_74436.dir/src.cxx.o -c /home/roland/work/benchmark/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+gmake[1]: *** [CMakeFiles/cmTC_74436.dir/build.make:85: CMakeFiles/cmTC_74436.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/roland/work/benchmark/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_74436/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: /home/roland/work/benchmark/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8257f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8257f.dir/build.make CMakeFiles/cmTC_8257f.dir/build
+gmake[1]: Entering directory '/home/roland/work/benchmark/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8257f.dir/src.cxx.o
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -DHAVE_CXX_FLAG_WD654  -wd654   -wd654 -std=c++11 -o CMakeFiles/cmTC_8257f.dir/src.cxx.o -c /home/roland/work/benchmark/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-wd654'
+c++: error: unrecognized command-line option '-wd654'
+gmake[1]: *** [CMakeFiles/cmTC_8257f.dir/build.make:85: CMakeFiles/cmTC_8257f.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/roland/work/benchmark/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_8257f/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
+Change Dir: /home/roland/work/benchmark/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_de49f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_de49f.dir/build.make CMakeFiles/cmTC_de49f.dir/build
+gmake[1]: Entering directory '/home/roland/work/benchmark/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_de49f.dir/src.cxx.o
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wthread-safety   -Wthread-safety -std=c++11 -o CMakeFiles/cmTC_de49f.dir/src.cxx.o -c /home/roland/work/benchmark/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wthread-safety'
+c++: error: unrecognized command-line option '-Wthread-safety'
+gmake[1]: *** [CMakeFiles/cmTC_de49f.dir/build.make:85: CMakeFiles/cmTC_de49f.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/roland/work/benchmark/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_de49f/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/roland/work/benchmark/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_0eba6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0eba6.dir/build.make CMakeFiles/cmTC_0eba6.dir/build
+gmake[1]: Entering directory '/home/roland/work/benchmark/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0eba6.dir/src.cxx.o
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -DCMAKE_HAVE_LIBC_PTHREAD -std=c++11 -o CMakeFiles/cmTC_0eba6.dir/src.cxx.o -c /home/roland/work/benchmark/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0eba6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0eba6.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -DCMAKE_HAVE_LIBC_PTHREAD CMakeFiles/cmTC_0eba6.dir/src.cxx.o -o cmTC_0eba6 
+/usr/bin/ld: CMakeFiles/cmTC_0eba6.dir/src.cxx.o: in function `main':
+src.cxx:(.text+0x40): undefined reference to `pthread_create'
+/usr/bin/ld: src.cxx:(.text+0x4c): undefined reference to `pthread_detach'
+/usr/bin/ld: src.cxx:(.text+0x58): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.cxx:(.text+0x68): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_0eba6.dir/build.make:106: cmTC_0eba6] Error 1
+gmake[1]: Leaving directory '/home/roland/work/benchmark/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_0eba6/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

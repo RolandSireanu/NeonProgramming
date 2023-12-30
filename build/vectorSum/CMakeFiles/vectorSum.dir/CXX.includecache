@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/logger.hpp
+iostream
+-
+arm_neon.h
+-
+
+/home/roland/work/NEON/vectorSum/vectorSum.cpp
+arm_neon.h
+-
+iostream
+-
+logger.hpp
+/home/roland/work/NEON/vectorSum/logger.hpp
+
