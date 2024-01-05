@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/comparisons.dir/main.cpp.o -o comparisons 

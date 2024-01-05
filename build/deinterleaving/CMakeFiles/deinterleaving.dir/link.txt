@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/deinterleaving.dir/deinterleave_chatGPT.cpp.o CMakeFiles/deinterleaving.dir/main.cpp.o -o deinterleaving 
